@@ -39,13 +39,17 @@ experiments are in the [doc](./doc) folder.
 * [Scene Segmentation](./doc/scene_segmentation_guide.md): Instructions to train KP-FCNN on a scene segmentation 
  task (S3DIS).
  
-* [SLAM Segmentation](./doc/slam_segmentation_guide.md): Instructions to train KP-FCNN on a slam segmentation 
+* [SLAM Segmentation](./doc/slam_segmentation_guide.md): Instructions to train KP-FCNN on a slam segmentation
  task (SemanticKitti).
- 
+
 * [Pretrained models](./doc/pretrained_models_guide.md): We provide pretrained weights and instructions to load them.
- 
-* [Visualization scripts](./doc/visualization_guide.md): For now only one visualization script has been implemented: 
+
+* [Visualization scripts](./doc/visualization_guide.md): For now only one visualization script has been implemented:
 the kernel deformations display.
+
+* **Synthetic Weather dataset**: a minimal example showing how to handle multiple
+weather variables stored at different point locations is provided in
+`datasets/WeatherDataset.py`.
 
 ## Acknowledgment
 
