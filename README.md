@@ -49,7 +49,8 @@ the kernel deformations display.
 
 * **Synthetic Weather dataset**: a minimal example showing how to handle multiple
 weather variables stored at different point locations is provided in
-`datasets/WeatherDataset.py`.
+`datasets/WeatherDataset.py`. Each variable can return a random number of points
+and a common convolution grid is computed for the whole batch.
 
 ## Acknowledgment
 
