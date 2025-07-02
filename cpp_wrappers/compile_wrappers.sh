@@ -1,11 +1,13 @@
 #!/bin/bash
 
 # Compile cpp subsampling
-cd cpp_subsampling
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$DIR/cpp_subsampling"
 python3 setup.py build_ext --inplace
-cd ..
+cd "$DIR"
 
 # Compile cpp neighbors
-cd cpp_neighbors
+cd "$DIR/cpp_neighbors"
 python3 setup.py build_ext --inplace
-cd ..
+cd "$DIR"
+
